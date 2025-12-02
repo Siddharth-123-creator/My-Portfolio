@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+/* Home Section */
+#home {
+  background: #3498db;
+  color: white;
+  padding: 0px 20px;
+}
+
+.profile-pic {
+  width: 200px;
+  border-radius: ;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Skills Section */
+#skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+#skills li {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+/* Projects Section */
+.project-card {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-card button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.project-card button:hover {
+  background: #2980b9;
+}
+
+/* Contact Section */
+#contact a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+
+
